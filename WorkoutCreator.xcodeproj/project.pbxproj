@@ -16,9 +16,7 @@
 		8479FE2E24E9809400D6DCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8479FE2C24E9809400D6DCEC /* LaunchScreen.storyboard */; };
 		8479FE3924E9809400D6DCEC /* WorkoutCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479FE3824E9809400D6DCEC /* WorkoutCreatorTests.swift */; };
 		8479FE4424E9809400D6DCEC /* WorkoutCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479FE4324E9809400D6DCEC /* WorkoutCreatorUITests.swift */; };
-		847D914624F6F44B0027B02B /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D914524F6F44B0027B02B /* Exercise.swift */; };
 		847D914E24F7FA740027B02B /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D914D24F7FA740027B02B /* Storage.swift */; };
-		847D915024F7FAFF0027B02B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D914F24F7FAFF0027B02B /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +52,7 @@
 		8479FE3F24E9809400D6DCEC /* WorkoutCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8479FE4324E9809400D6DCEC /* WorkoutCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCreatorUITests.swift; sourceTree = "<group>"; };
 		8479FE4524E9809400D6DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		847D914524F6F44B0027B02B /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		847D914D24F7FA740027B02B /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
-		847D914F24F7FAFF0027B02B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +106,7 @@
 				8479FE1E24E9809200D6DCEC /* AppDelegate.swift */,
 				8479FE2024E9809200D6DCEC /* SceneDelegate.swift */,
 				8479FE2524E9809200D6DCEC /* ContentView.swift */,
-				847D914524F6F44B0027B02B /* Exercise.swift */,
 				847D914D24F7FA740027B02B /* Storage.swift */,
-				847D914F24F7FAFF0027B02B /* Bundle-Decodable.swift */,
 				8479FE2724E9809400D6DCEC /* Assets.xcassets */,
 				8479FE2C24E9809400D6DCEC /* LaunchScreen.storyboard */,
 				8479FE2F24E9809400D6DCEC /* Info.plist */,
@@ -279,11 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847D914624F6F44B0027B02B /* Exercise.swift in Sources */,
 				8479FE1F24E9809200D6DCEC /* AppDelegate.swift in Sources */,
 				8479FE2124E9809200D6DCEC /* SceneDelegate.swift in Sources */,
 				8479FE2624E9809200D6DCEC /* ContentView.swift in Sources */,
-				847D915024F7FAFF0027B02B /* Bundle-Decodable.swift in Sources */,
 				8479FE2424E9809200D6DCEC /* WorkoutCreator.xcdatamodeld in Sources */,
 				847D914E24F7FA740027B02B /* Storage.swift in Sources */,
 			);
