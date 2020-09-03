@@ -18,7 +18,7 @@ struct ContentView: View {
     @State var secondsHeld = 1
    // @State var readList : [cardio]
     
-    var a = db()
+    
     
     var exercises = ["Cardio","Strength","Flexibility"]
     var distanceMetrics = ["Miles","Kilometres","Metres", "Yards"]
@@ -250,7 +250,7 @@ struct ContentView: View {
                 
                 
                 
-                .navigationBarTitle("Create Exercise")
+               .navigationBarTitle("Create Exercise")
             .onAppear(){
                 print("hhbhb")
                  for i in db.sharedInstance.cardioList {
@@ -263,12 +263,17 @@ struct ContentView: View {
                 for i in db.sharedInstance.flexibilityList {
                     print(i.name)
                 }
-            }
-                }
+        }
+            
+            
+    }
                     
                 
+        
+
+
+    }
                 
-            }
     
     
     

@@ -17,6 +17,7 @@
 		8479FE3924E9809400D6DCEC /* WorkoutCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479FE3824E9809400D6DCEC /* WorkoutCreatorTests.swift */; };
 		8479FE4424E9809400D6DCEC /* WorkoutCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479FE4324E9809400D6DCEC /* WorkoutCreatorUITests.swift */; };
 		847D914E24F7FA740027B02B /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D914D24F7FA740027B02B /* Storage.swift */; };
+		847E473B24FEA66B00827278 /* CreateWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E473A24FEA66B00827278 /* CreateWorkoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8479FE4324E9809400D6DCEC /* WorkoutCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCreatorUITests.swift; sourceTree = "<group>"; };
 		8479FE4524E9809400D6DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847D914D24F7FA740027B02B /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		847E473A24FEA66B00827278 /* CreateWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8479FE1E24E9809200D6DCEC /* AppDelegate.swift */,
 				8479FE2024E9809200D6DCEC /* SceneDelegate.swift */,
 				8479FE2524E9809200D6DCEC /* ContentView.swift */,
+				847E473A24FEA66B00827278 /* CreateWorkoutView.swift */,
 				847D914D24F7FA740027B02B /* Storage.swift */,
 				8479FE2724E9809400D6DCEC /* Assets.xcassets */,
 				8479FE2C24E9809400D6DCEC /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847E473B24FEA66B00827278 /* CreateWorkoutView.swift in Sources */,
 				8479FE1F24E9809200D6DCEC /* AppDelegate.swift in Sources */,
 				8479FE2124E9809200D6DCEC /* SceneDelegate.swift in Sources */,
 				8479FE2624E9809200D6DCEC /* ContentView.swift in Sources */,

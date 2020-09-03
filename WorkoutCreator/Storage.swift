@@ -8,6 +8,17 @@
 
 import Foundation
 
+struct workout: Identifiable {
+    let id = UUID()
+    var name: String
+    var description: String
+    var days: [String]
+    var repeatEvery = 0
+    var cardioExercises : [cardio] = []
+    var strengthExercises : [strength] = []
+    var flexibilityExercises : [flexibility] = []
+    
+}
 
 struct flexibility: Identifiable, Codable {
     let id = UUID()
