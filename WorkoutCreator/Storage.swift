@@ -74,6 +74,7 @@ class db: ObservableObject {
         
         getCardioList()
         getStrengthList()
+        getFlexibilityList()
        
     }
 
