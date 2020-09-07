@@ -40,7 +40,7 @@ struct ContentView: View {
 
     var body: some View {
         
-        NavigationView {
+       // NavigationView {
             
             VStack {
             Form {
@@ -244,7 +244,7 @@ struct ContentView: View {
                     
                 
             
-            }
+            
             .background(Color(UIColor.systemGray6))
            
                 
