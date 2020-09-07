@@ -22,10 +22,10 @@ struct CreateView: View {
                 }
                 
                 
-            }
+            }.navigationBarTitle("Planner")
         
         
-        }.navigationBarTitle("Home")
+        }
     
     
     }

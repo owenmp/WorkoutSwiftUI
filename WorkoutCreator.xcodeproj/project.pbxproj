@@ -95,7 +95,6 @@
 		8479FE1224E9809200D6DCEC = {
 			isa = PBXGroup;
 			children = (
-				84F4C1FE2506731A00B8D93B /* TabBar.swift */,
 				8479FE1D24E9809200D6DCEC /* WorkoutCreator */,
 				8479FE3724E9809400D6DCEC /* WorkoutCreatorTests */,
 				8479FE4224E9809400D6DCEC /* WorkoutCreatorUITests */,
@@ -116,6 +115,7 @@
 		8479FE1D24E9809200D6DCEC /* WorkoutCreator */ = {
 			isa = PBXGroup;
 			children = (
+				84F4C1FE2506731A00B8D93B /* TabBar.swift */,
 				8479FE1E24E9809200D6DCEC /* AppDelegate.swift */,
 				8479FE2024E9809200D6DCEC /* SceneDelegate.swift */,
 				8479FE2524E9809200D6DCEC /* ContentView.swift */,

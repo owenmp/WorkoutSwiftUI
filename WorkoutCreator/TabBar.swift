@@ -11,10 +11,11 @@ import SwiftUI
 struct TabBar: View {
     var body: some View {
         TabView {
+            
             CreateView()
                 .tabItem {
-                    Image(systemName: "1.circle")
-                    Text("First")
+                    Image("calendar")
+                    Text("Planner")
             }.tag(0)
         }
     }
