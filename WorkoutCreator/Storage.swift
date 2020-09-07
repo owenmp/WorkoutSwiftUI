@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+
 struct workout: Identifiable {
     let id = UUID()
     var name: String
@@ -54,11 +56,15 @@ struct cardio: Identifiable, Codable {
 
 private let _hiddenSharedInstance = db()
 
-class db {
-var cardioList: [cardio] = []
+class db: ObservableObject {
+    var cardioList: [cardio] = []
+
+    //@ObservableObject var car = [cardio]()
     var strengthList: [strength] = []
     var flexibilityList: [flexibility] = []
-    
+    @Published var cardioForWorkout : [cardio] = []
+    @Published var flexibilityForWorkout : [flexibility] = []
+    @Published var strengthForWorkout : [strength] = []
 
     class var sharedInstance: db{
            return _hiddenSharedInstance;
