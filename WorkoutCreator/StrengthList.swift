@@ -12,7 +12,7 @@ struct StrengthList: View {
     var strengthExercises = db.sharedInstance.strengthList
     
     var body: some View {
-        NavigationView {
+        //NavigationView {
             List(strengthExercises) { strength in
                 VStack {
                     Text(strength.name)
@@ -31,7 +31,7 @@ struct StrengthList: View {
                 
                 
                 
-            }
+            
             
             
             

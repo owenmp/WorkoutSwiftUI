@@ -25,7 +25,7 @@ struct CreateWorkoutView: View {
     
     
     var body: some View {
-        NavigationView {
+       // NavigationView {
         VStack {
             Form {
                 Section(header:Text("Name of Workout")){
@@ -131,7 +131,7 @@ struct CreateWorkoutView: View {
     }
 }
 }
-}
+
 
 struct CreateWorkoutView_Previews: PreviewProvider {
     static var previews: some View {

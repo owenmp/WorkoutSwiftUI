@@ -20,7 +20,7 @@ struct CardioList: View {
     
     var body: some View {
         
-        NavigationView {
+       // NavigationView {
             List(cardioArray) { cardio in
                 VStack {
                 Text(cardio.name)
@@ -41,7 +41,7 @@ struct CardioList: View {
                 
                 }
                 
-            }
+            
         }
         .onAppear(){
             print("APPEAR")

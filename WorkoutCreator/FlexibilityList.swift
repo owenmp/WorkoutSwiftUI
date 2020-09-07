@@ -14,7 +14,7 @@ struct FlexibilityList: View {
     @ObservedObject var d = db()
     
     var body: some View {
-        NavigationView {
+       // NavigationView {
             
             List(flexibilityExercises) { flexibility in
                 VStack {
@@ -39,7 +39,7 @@ struct FlexibilityList: View {
                 
                 
                 
-            }
+            
         
         
         
