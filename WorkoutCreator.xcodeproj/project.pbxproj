@@ -22,6 +22,7 @@
 		84F4C1F7250649EC00B8D93B /* StrengthList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C1F6250649EC00B8D93B /* StrengthList.swift */; };
 		84F4C1F925064BCD00B8D93B /* FlexibilityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C1F825064BCD00B8D93B /* FlexibilityList.swift */; };
 		84F4C1FB2506529700B8D93B /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C1FA2506529700B8D93B /* CreateView.swift */; };
+		84F4C1FF2506731A00B8D93B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C1FE2506731A00B8D93B /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		84F4C1F6250649EC00B8D93B /* StrengthList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthList.swift; sourceTree = "<group>"; };
 		84F4C1F825064BCD00B8D93B /* FlexibilityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibilityList.swift; sourceTree = "<group>"; };
 		84F4C1FA2506529700B8D93B /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		84F4C1FE2506731A00B8D93B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		8479FE1224E9809200D6DCEC = {
 			isa = PBXGroup;
 			children = (
+				84F4C1FE2506731A00B8D93B /* TabBar.swift */,
 				8479FE1D24E9809200D6DCEC /* WorkoutCreator */,
 				8479FE3724E9809400D6DCEC /* WorkoutCreatorTests */,
 				8479FE4224E9809400D6DCEC /* WorkoutCreatorUITests */,
@@ -296,6 +299,7 @@
 				8479FE2124E9809200D6DCEC /* SceneDelegate.swift in Sources */,
 				8479FE2624E9809200D6DCEC /* ContentView.swift in Sources */,
 				8479FE2424E9809200D6DCEC /* WorkoutCreator.xcdatamodeld in Sources */,
+				84F4C1FF2506731A00B8D93B /* TabBar.swift in Sources */,
 				847D914E24F7FA740027B02B /* Storage.swift in Sources */,
 				84F4C1F925064BCD00B8D93B /* FlexibilityList.swift in Sources */,
 			);
