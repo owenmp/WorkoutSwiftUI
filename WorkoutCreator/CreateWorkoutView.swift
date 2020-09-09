@@ -19,8 +19,12 @@ struct CreateWorkoutView: View {
     var cardioTest = ["Running", "Walking","Football"]
    @State var strengthTest = ["Bicep Curl","Bench Press", "Chest Fly"]
     var flexibilityTest = ["Lunges","Touch Toes","Plank"]
-    
+    @State private var startDate = Date()
+    @State private var endDate = Date()
+    @State var showStartDates = false
+    @State var showEndDates = false
     @ObservedObject var d = db()
+  
     
     
     
@@ -101,19 +105,58 @@ struct CreateWorkoutView: View {
                         
                         }
                         }
-                       
+                    
+                    
+                   
             
             
             
         
-            }
+                    
+                }
+                
+                Section(header: Text("Dates")){
+                    NavigationLink(destination: DayPicker()) {
+                        
+                        
+                    Text("Select Days To Repeat Workout")
+                    } .buttonStyle(PlainButtonStyle()).foregroundColor(.blue)
+                    
+                    
+                    
+                    
+                    
+                    
+                    Toggle(isOn: $showStartDates) {
+                    Text("Add Start Date?")
+                    }
+                    if showStartDates {
+                    
+                    DatePicker("Enter Start Date", selection: $startDate)
+                        .frame(maxHeight: 400)
+                       
+                        Toggle(isOn: $showEndDates) {
+                                           Text("Add End Date?")
+                                           }
+                                           if showEndDates {
+                                           
+                                           DatePicker("Enter End Date", selection: $endDate)
+                                               .frame(maxHeight: 400)
+                        }
+                        
+                        
+                }
+                }
+                    
                     
             .navigationBarTitle("Create Workout")
                 
                 .onAppear(){
                     
                     
-                    
+                    for i in db.sharedInstance.daysRepeated {
+                        print(i)
+                    }
                     
                     for i in self.d.cardioForWorkout {
                         print(i.name)

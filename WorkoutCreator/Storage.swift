@@ -65,6 +65,7 @@ class db: ObservableObject {
     @Published var cardioForWorkout : [cardio] = []
     @Published var flexibilityForWorkout : [flexibility] = []
     @Published var strengthForWorkout : [strength] = []
+    @Published var daysRepeated : [String] = []
 
     class var sharedInstance: db{
            return _hiddenSharedInstance;
